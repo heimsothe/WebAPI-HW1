@@ -1,0 +1,23 @@
+{
+  "name": "webapi-hw1",
+  "version": "1.0.0",
+  "description": "The purpose of this assignment is to setup your GitHub and Render instances for future assignments",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node -r dotenv/config server.js"
+  },
+  "keywords": [],
+  "author": "Elijah Heimsoth",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^11.7.5"
+  }
+}
